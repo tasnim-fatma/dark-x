@@ -1,0 +1,156 @@
+.footer{
+    width: 100%;
+    height: auto;
+    padding-bottom: 50px;
+    background-color: #13111A;
+    border-bottom: 1px solid lightgray;
+}
+.divide{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.page h3{
+    font-size: 35px;
+    line-height: 52px;
+    font-weight: 600;
+    color: #fff;
+}
+.page p{
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #E5E5E5;
+    opacity: 0.5;
+}
+.pg{
+    margin-left: 40px;
+}
+.pg h3{
+    font-size: 35px;
+    line-height: 52px;
+    font-weight: 600;
+    color: #fff;
+}
+.pg p{
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #E5E5E5;
+    opacity: 0.5;
+    width: 70%;
+}
+.post{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.post p{
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #E5E5E5;
+    opacity: 0.5;
+}
+.post img{
+    width: 72px;
+    height: 37px;
+    margin-top: 14px;
+}
+.input{
+    display: flex;
+    flex-direction: row;
+}
+.input input{
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    padding: 20px;
+    background: #726C86;
+    color: #fff;
+    font-size: 25px;
+    line-height: 37px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+.input input::placeholder{
+    color: #fff;
+}
+.input button{
+    padding: 20px;
+    width: 30%;
+    height: 75px;
+    border: none;
+    outline: none;
+    position: relative;
+    border-radius: 50px;
+    background: linear-gradient(to right, #00FFA3, #DC1FFF);
+    cursor: pointer;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.input button::before {
+    content: "Get Started";
+    color: white;
+    position: absolute;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 2px;
+    right: 2px;
+    bottom: 2px;
+    left: 2px;
+    border-radius: 50px;
+    background-color: #13111A;
+  }
+
+  @media screen and (max-width: 768px) {
+    .page h3{
+        font-size: 20px;
+        line-height: 28px;
+
+    }
+    .page p{
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .pg{
+        margin-left: 40px;
+    }
+    .pg h3{
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .pg p{
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .post p{
+        font-size: 18px;
+        line-height: 24px;
+        font-weight: 400;
+        color: #fff;
+    }
+    .input{
+        display: flex;
+        flex-direction: column;
+    }
+    .input input{
+        font-size: 15px;
+        line-height: 22px;
+        width: 60%;
+        padding: 8px 15px;
+    }
+    .input button{
+        margin-top: 30px;
+        width: 70%;
+        margin-left: 0px;
+        padding: 13px 15px;
+        height: auto;
+    }
+    
+  }

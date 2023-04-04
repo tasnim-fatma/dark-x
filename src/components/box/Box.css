@@ -1,0 +1,107 @@
+body {
+    background-color: #13111A;
+    margin: 0;
+    min-height: 100vh;
+    display: grid;
+    place-content: center;
+}
+.box {
+    width: 90%;
+    margin: auto;
+    height: auto;
+    padding: 90px 40px;
+    border: none;
+    background: #13111A;
+    position: relative;
+    transform: translate(0);
+    margin-top: 70px;
+    margin-bottom: 60px;
+    transform-style: preserve-3d;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .shadow:before {
+    content:"";
+    position: absolute;
+    inset: -5px;
+    transform: translate3d(10px,8px,-1px);
+    background: linear-gradient(to right, #CE4DA4, #7353E5);
+    filter: blur(10px);
+  }
+
+.box h1{
+    color: #fff;
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 67.5px;
+    margin-top: 0px;
+    margin-left: 30px;
+}
+.bt{
+    color: #000;
+    background: #fff;
+    border-radius: 40px;
+    border: none;
+    width: 300px;
+    font-size: 25px;
+    padding: 20px;
+    border: 1px solid #fff;
+    cursor: pointer;
+    margin: 50px 0;
+}
+.bt:hover{
+    background: #13111A;
+    color: #fff;
+}
+.bt1{
+    color: #fff;
+    background: #13111A;
+    border-radius: 40px;
+    border: 1px solid #fff;
+    width: 300px;
+    padding: 20px;
+    font-size: 25px;
+    margin: 50px 0;
+    cursor: pointer;
+    height: auto;
+}
+.bt1:hover{
+    background: #fff;
+    color: #13111A;
+}
+
+
+
+@media screen and (max-width: 788px){
+    .box{
+        padding: 20px 40px;
+    }
+    .shadow{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 70%;
+        height: auto;
+        margin: auto;
+        padding-bottom: 60px;
+    }
+    .bt{
+        margin-top: 20px;
+        width:auto;
+        padding: 10px 30px;
+        font-size: 17px;
+    }
+    .bt1{
+        margin-top: 30px;
+        width: auto;
+        padding: 10px 30px;
+        font-size: 17px;
+    }
+    .box h1{
+        text-align: center;
+        font-size: 25px;
+        line-height: 32px;
+        margin-top: 50px;
+    }
+}

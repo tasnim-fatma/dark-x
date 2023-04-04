@@ -1,0 +1,149 @@
+.content{
+    width: 100%;
+    height: auto;
+    background: #13111A;
+}
+.back{
+    width: 93%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+.texts{
+    width: 50%;
+    padding: 10px 70px 70px 70px;
+}
+.texts h1{
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 60px;
+}
+.texts p {
+    color: #E5E5E5;
+    opacity: 0.5;
+    font-size: 15px;
+    /* text-align: center; */
+    line-height: 27px;
+    /* width: 70%; */
+    margin-left: 20px;
+}
+.bot h2{
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+}
+
+.bot p{
+    line-height: 27px;
+    font-size: 16px;
+    margin-left: 20px;
+    color: #E5E5E5;
+    opacity: 0.5;
+}
+
+.second1{
+    width: 45%;
+    height: 100%;
+    background: none;
+}
+.second1 img{
+    height: 100%;
+    width: 97%;
+    margin-top: 8px;
+}
+.bg1{
+    height: 90px;
+    width: 90px;
+    background: #5E5B71;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.bg1 img{
+    height: 50px;
+    width: 50px;
+    margin: 20px;
+}
+.bot{
+    display: block;
+}
+
+
+
+
+
+
+@media screen and (max-width: 768px){
+    .back{
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+    .texts{
+        width: 100%;
+        margin-left: 0px;
+    }
+    .second1{
+        width: 90%;
+        height: 70vh;  
+        margin: auto;
+        margin-bottom: 60px;
+
+    }
+
+    .bg1{
+        height: 90px;
+        width: 90px;
+        background: #5E5B71;
+        border-radius: 20px;
+        margin-top: 20px;
+    }
+    .bg1 img{
+        height: 50px;
+        width: 50px;
+        margin: 20px;
+    }
+    
+    .texts{
+        padding: 20px;
+        text-align: center;
+    }
+    .texts p{
+        text-align: center;
+        width: 80%;
+        margin: auto;
+    }
+    .texts h1{
+        font-size: 22px;
+    }
+    .bg1{
+        height: 50px;
+        width: 50px;
+        margin-top: 70px;
+        padding-left: 10px;    }
+    .bg1 img{
+        height: 27px;
+        width: 27px;
+        margin-left: 7px;
+        margin-top: 12px;
+    }
+    /* .both{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    } */
+    .bot h2{
+        margin-left: 0px;
+        text-align: center;
+    }
+    .bot p{
+        margin-left: 0px;
+        text-align: center;
+        width: 80%;
+        margin: auto;
+    }
+}

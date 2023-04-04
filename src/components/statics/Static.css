@@ -1,0 +1,21 @@
+ /* .static{
+    background: #13111A;
+ }
+ .image{
+    width: 100%;
+    height: 100%;
+    background-image: url('2.png');
+    background-size: cover;
+    background-position: right;
+ }
+ .image img{
+    height: 100%;
+    width: 100%;
+ }
+  */
+
+  img {
+   width: 100%;
+   height: 70%;
+   margin: auto;
+  }
